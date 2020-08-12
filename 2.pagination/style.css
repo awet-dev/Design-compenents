@@ -1,0 +1,28 @@
+ul {
+    width: 70%;
+    margin: 50vh auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(228, 225, 225);
+    padding: 20px;
+    
+}
+li {
+    list-style: none;
+    display: block;
+    width: 11%;
+    background-color: rgb(74, 78, 78);
+    color: honeydew;
+    text-align: center;
+    padding: .7vw 0;
+    font-size: 1.5vw;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.background-no {
+    background-color: rgb(228, 225, 225);
+    color: rgb(71, 70, 70);
+}
+.background-blue {
+    background-color: rgb(98, 161, 233);
+}

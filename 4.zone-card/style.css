@@ -1,0 +1,50 @@
+.title-plus {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh auto 0 auto;
+    align-items: baseline;
+}
+.title-plus h2 {
+    margin: 1%;
+    text-transform: capitalize;
+}
+.title-plus span {
+    margin-right: 2rem;
+}
+.title-plus i {
+    font-size: .8rem;
+}
+section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: max-content;
+    justify-content: space-between;
+}
+.icon {
+    align-self: center;    
+}
+.fa-chevron-right {
+    font-size: 2rem;
+    color: gray;
+}
+.image, .price-discrption, .stars-comments  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image > img, .price-discrption > p, .stars-comments > span {
+    width: 20%;
+    margin: .8%;
+}
+.price-discrption > p {
+    font-size: 1rem;
+}
+.stars-comments > span {
+    font-size: .9rem;
+}
+.stars-comments i {
+    color: rgb(48, 195, 206);
+    font-size: .7rem;
+}
