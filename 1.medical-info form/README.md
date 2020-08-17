@@ -1,1 +1,1 @@
-https://awet100.github.io/00.form-medical-information/
+https://awet100.github.io/Design-compenents/1.medical-info%20form/
