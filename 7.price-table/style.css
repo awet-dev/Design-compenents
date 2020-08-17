@@ -1,1 +1,43 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 5rem auto;
+    padding: 5rem 1rem 1rem 1rem;
+    border: 1px solid gray;
+    height: 50vh;
+    color: white;
+    background-color: #3c1991;
+}
+.upper-part {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+h3::first-letter {
+    text-transform: uppercase;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+p::first-letter {
+    text-transform: uppercase;
+}
+.learn-more {
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    background-color: #e76712;
+    border-radius: .5rem;
+    color: white;
+}
