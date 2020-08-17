@@ -129,3 +129,8 @@ button {
     border-bottom-style: inset;
     text-transform: capitalize;
 }
+@media only screen and(max-width: 700px) {
+    .box-container {
+        flex-direction: column;
+    }
+}
