@@ -26,11 +26,15 @@ h3::first-letter {
     text-transform: uppercase;
 }
 p {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
+    line-height: 20px;
+    font-size: .8rem;
+    padding-left: 1rem;
 }
 p::first-letter {
     text-transform: uppercase;
+}
+.margin-bottom {
+    margin-bottom: 1.5rem;
 }
 .learn-more {
     text-decoration: none;
@@ -48,7 +52,7 @@ p::first-letter {
     width: 100%;
     margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
 }
 .box-container > div {
@@ -57,13 +61,30 @@ p::first-letter {
     color: black;
     margin: 1rem;
     height: max-content;
-    padding: 1.5vw;
+    border-radius: .5rem;
 }
 .box-head {
     text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 1rem 0;
 }
 .box-head h4 {
     text-transform: capitalize;
+    color: #3c1991;
+}
+.box-3 h4 {
+    text-transform: capitalize;
+}
+.box-container .box-3 {
+    background: transparent;
+    border: 1px solid gray;
+    color: white;
+}
+.box-3 h4 {
+    color: white;
+}
+.margin-left {
+    margin-left: 1rem;
 }
 .fas {
     color: #e76712;
@@ -72,9 +93,9 @@ p::first-letter {
 }
 button {
     display: block;
-    font-size: 1rem;
+    font-size: .9rem;
     width: 90%;
-    margin: auto;
+    margin: 1rem auto;
     padding: .5rem;
     border: none;
     border-radius: .5rem;
