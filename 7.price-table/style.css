@@ -7,9 +7,9 @@
 .container {
     width: 80%;
     margin: 5rem auto;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 5rem;
     border: 1px solid gray;
-    height: 50vh;
+    height: fit-content;
     color: white;
     background-color: #3c1991;
 }
@@ -34,10 +34,51 @@ p::first-letter {
 }
 .learn-more {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 1px solid transparent;
     padding: .5rem 1rem;
     background-color: #e76712;
-    border-radius: .5rem;
+    border-radius: .3rem;
     color: white;
+}
+.learn-more::first-letter {
+    text-transform: uppercase;
+}
+.box-container {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.box-container > div {
+    border: 1px solid transparent;
+    background: white;
+    color: black;
+    margin: 1rem;
+    height: max-content;
+    padding: 1.5vw;
+}
+.box-head {
+    text-align: center;
+}
+.box-head h4 {
+    text-transform: capitalize;
+}
+.fas {
+    color: #e76712;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+button {
+    display: block;
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    background: #e5e0e0;
+    border-bottom-style: inset;
+    text-transform: capitalize;
 }
