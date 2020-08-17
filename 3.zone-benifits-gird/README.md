@@ -1,1 +1,1 @@
-https://awet100.github.io/03.zone-benefits-grid/
+https://awet100.github.io/Design-compenents/3.zone-benifits-gird/
