@@ -1,1 +1,1 @@
-https://awet100.github.io/04.zone-cards/
+https://awet100.github.io/Design-compenents/4.zone-card/
