@@ -25,13 +25,35 @@ h3 {
 h3::first-letter {
     text-transform: uppercase;
 }
+.flex {
+    display: flex;
+}
+span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.flex p {
+    margin-left: 0;
+    line-height: unset;
+}
 p {
     line-height: 20px;
-    font-size: .8rem;
+    font-size: .9rem;
     padding-left: 1rem;
 }
 p::first-letter {
     text-transform: uppercase;
+}
+span {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.flex p {
+    margin-left: unset;
+}
+i {
+    margin-right: .2rem;
 }
 .margin-bottom {
     margin-bottom: 1.5rem;
@@ -53,7 +75,6 @@ p::first-letter {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 .box-container > div {
     border: 1px solid transparent;
@@ -74,6 +95,9 @@ p::first-letter {
 }
 .box-3 h4 {
     text-transform: capitalize;
+}
+.box-3 button {
+    background: #e99213;
 }
 .box-container .box-3 {
     background: transparent;
