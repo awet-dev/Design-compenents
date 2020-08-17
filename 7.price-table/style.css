@@ -41,6 +41,7 @@ p {
     line-height: 20px;
     font-size: .9rem;
     padding-left: 1rem;
+    font-family: sans-serif;
 }
 p::first-letter {
     text-transform: uppercase;
@@ -60,6 +61,7 @@ i {
 }
 .learn-more {
     text-decoration: none;
+    text-transform: capitalize;
     font-size: 1rem;
     border: 1px solid transparent;
     padding: .5rem 1rem;
